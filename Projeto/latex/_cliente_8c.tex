@@ -1,0 +1,126 @@
+\hypertarget{_cliente_8c}{}\doxysection{Cliente.\+c File Reference}
+\label{_cliente_8c}\index{Cliente.c@{Cliente.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}struct.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_cliente_8c_a257f35adbf3c27d32146738962625012}{add\+Client}} (struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$$\ast$Clientes, int $\ast$n\+\_\+clientes, int $\ast$n\+\_\+max)
+\item 
+int \mbox{\hyperlink{_cliente_8c_a7ca0ec941ea322f79faa27aef335eab9}{verificar\+Client}} (struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$Clientes, int n\+\_\+clientes, int e\+\_\+nif)
+\item 
+void \mbox{\hyperlink{_cliente_8c_a46705b2368d24416dfbbc4f970c2f806}{editar\+Client}} (struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$Clientes, int n\+\_\+clientes)
+\item 
+void \mbox{\hyperlink{_cliente_8c_a8d499b7931eaed71c844d1f5133c85d9}{gravarfc}} (struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$Clientes, int n\+\_\+clientes)
+\item 
+void \mbox{\hyperlink{_cliente_8c_a4790a4e0c8a3b8789ccaa8a3eb08c7b8}{carregarfc}} (struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$$\ast$Clientes, int $\ast$n\+\_\+clientes, int $\ast$n\+\_\+max)
+\item 
+void \mbox{\hyperlink{_cliente_8c_ad9cc0d0b21ac8b9e72dbab8813e8b284}{listar\+Client}} (struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$Clientes, int n\+\_\+clientes)
+\item 
+void \mbox{\hyperlink{_cliente_8c_a8475b5778d32b7e7008c3090a27bf2db}{listar\+Client\+Empresa}} (struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$Clientes, int n\+\_\+clientes)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_cliente_8c_a257f35adbf3c27d32146738962625012}\label{_cliente_8c_a257f35adbf3c27d32146738962625012}} 
+\index{Cliente.c@{Cliente.c}!addClient@{addClient}}
+\index{addClient@{addClient}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{addClient()}{addClient()}}
+{\footnotesize\ttfamily void add\+Client (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$$\ast$}]{Clientes,  }\item[{int $\ast$}]{n\+\_\+clientes,  }\item[{int $\ast$}]{n\+\_\+max }\end{DoxyParamCaption})}
+
+Funcao para adicionar cliente 
+\begin{DoxyParams}{Parameters}
+{\em Clientes,apontador} & para a estrutura de cliente \\
+\hline
+{\em n\+\_\+clientes,numero} & de clientes \\
+\hline
+{\em n\+\_\+max,numero} & maximo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_cliente_8c_a4790a4e0c8a3b8789ccaa8a3eb08c7b8}\label{_cliente_8c_a4790a4e0c8a3b8789ccaa8a3eb08c7b8}} 
+\index{Cliente.c@{Cliente.c}!carregarfc@{carregarfc}}
+\index{carregarfc@{carregarfc}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{carregarfc()}{carregarfc()}}
+{\footnotesize\ttfamily void carregarfc (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$$\ast$}]{Clientes,  }\item[{int $\ast$}]{n\+\_\+clientes,  }\item[{int $\ast$}]{n\+\_\+max }\end{DoxyParamCaption})}
+
+Funcao para carregar as informacoes para um ficheiro 
+\begin{DoxyParams}{Parameters}
+{\em Clientes,apontador} & para a estrutura de cliente \\
+\hline
+{\em n\+\_\+clientes,numero} & de clientes \\
+\hline
+{\em n\+\_\+max,numero} & maximo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_cliente_8c_a46705b2368d24416dfbbc4f970c2f806}\label{_cliente_8c_a46705b2368d24416dfbbc4f970c2f806}} 
+\index{Cliente.c@{Cliente.c}!editarClient@{editarClient}}
+\index{editarClient@{editarClient}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{editarClient()}{editarClient()}}
+{\footnotesize\ttfamily void editar\+Client (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$}]{Clientes,  }\item[{int}]{n\+\_\+clientes }\end{DoxyParamCaption})}
+
+Funcao para editar as informacoes dos clientes 
+\begin{DoxyParams}{Parameters}
+{\em Clientes,apontador} & para a estrutura de cliente \\
+\hline
+{\em n\+\_\+clientes,numero} & de clientes \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_cliente_8c_a8d499b7931eaed71c844d1f5133c85d9}\label{_cliente_8c_a8d499b7931eaed71c844d1f5133c85d9}} 
+\index{Cliente.c@{Cliente.c}!gravarfc@{gravarfc}}
+\index{gravarfc@{gravarfc}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{gravarfc()}{gravarfc()}}
+{\footnotesize\ttfamily void gravarfc (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$}]{Clientes,  }\item[{int}]{n\+\_\+clientes }\end{DoxyParamCaption})}
+
+Funcao para gravar as informacoes para um ficheiro 
+\begin{DoxyParams}{Parameters}
+{\em Clientes,apontador} & para a estrutura de cliente \\
+\hline
+{\em n\+\_\+clientes,numero} & de clientes \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_cliente_8c_ad9cc0d0b21ac8b9e72dbab8813e8b284}\label{_cliente_8c_ad9cc0d0b21ac8b9e72dbab8813e8b284}} 
+\index{Cliente.c@{Cliente.c}!listarClient@{listarClient}}
+\index{listarClient@{listarClient}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{listarClient()}{listarClient()}}
+{\footnotesize\ttfamily void listar\+Client (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$}]{Clientes,  }\item[{int}]{n\+\_\+clientes }\end{DoxyParamCaption})}
+
+Funcao para listar os clientes 
+\begin{DoxyParams}{Parameters}
+{\em Clientes,apontador} & para a estrutura de cliente \\
+\hline
+{\em n\+\_\+clientes,numero} & de clientes \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_cliente_8c_a8475b5778d32b7e7008c3090a27bf2db}\label{_cliente_8c_a8475b5778d32b7e7008c3090a27bf2db}} 
+\index{Cliente.c@{Cliente.c}!listarClientEmpresa@{listarClientEmpresa}}
+\index{listarClientEmpresa@{listarClientEmpresa}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{listarClientEmpresa()}{listarClientEmpresa()}}
+{\footnotesize\ttfamily void listar\+Client\+Empresa (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$}]{Clientes,  }\item[{int}]{n\+\_\+clientes }\end{DoxyParamCaption})}
+
+Listar os clientes de empresa 
+\begin{DoxyParams}{Parameters}
+{\em Clientes,apontador} & para a estrutura de cliente \\
+\hline
+{\em n\+\_\+clientes,numero} & de clientes \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_cliente_8c_a7ca0ec941ea322f79faa27aef335eab9}\label{_cliente_8c_a7ca0ec941ea322f79faa27aef335eab9}} 
+\index{Cliente.c@{Cliente.c}!verificarClient@{verificarClient}}
+\index{verificarClient@{verificarClient}!Cliente.c@{Cliente.c}}
+\doxysubsubsection{\texorpdfstring{verificarClient()}{verificarClient()}}
+{\footnotesize\ttfamily int verificar\+Client (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$}]{Clientes,  }\item[{int}]{n\+\_\+clientes,  }\item[{int}]{e\+\_\+nif }\end{DoxyParamCaption})}
+
+Funcao para verificar se o nif do cliente ja existe 
+\begin{DoxyParams}{Parameters}
+{\em Clientes,apontador} & para a estrutura de cliente \\
+\hline
+{\em n\+\_\+clientes,numero} & de clientes \\
+\hline
+{\em e\+\_\+nif,variavel} & que ira ser usada para verificar o nif dos clientes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}

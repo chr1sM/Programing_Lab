@@ -1,0 +1,190 @@
+\hypertarget{_quarto_8c}{}\doxysection{Quarto.\+c File Reference}
+\label{_quarto_8c}\index{Quarto.c@{Quarto.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}struct.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_quarto_8c_a732c9620570104673206bfdebe6a5821}{menu\+Quartos}} (struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$$\ast$Quartos, int $\ast$n\+\_\+quartos, int $\ast$n\+\_\+maxQ)
+\item 
+void \mbox{\hyperlink{_quarto_8c_aa2eadadf275a938083e6cdba3c52212c}{add\+Quarto}} (struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$$\ast$Quartos, int $\ast$n\+\_\+quartos, int $\ast$n\+\_\+maxQ)
+\item 
+void \mbox{\hyperlink{_quarto_8c_a6a5303b308fa6edc08e02ec538066f4a}{remover\+Quarto}} (struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$$\ast$Quartos, int $\ast$n\+\_\+quartos, int $\ast$n\+\_\+maxQ)
+\item 
+int \mbox{\hyperlink{_quarto_8c_a947e7c7f4cc84138a9870c3077e4b0a0}{verificar\+Quarto}} (struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$Quartos, int n\+\_\+quartos, int num\+Quarto)
+\item 
+void \mbox{\hyperlink{_quarto_8c_a6393540fb3f548ef726823b634c5235b}{listar\+Quarto}} (struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$Quartos, int n\+\_\+quartos)
+\item 
+void \mbox{\hyperlink{_quarto_8c_a2c433ab1b0755a737c4d7b97f7ca3fc8}{gravarfq}} (struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$Quartos, int n\+\_\+quartos)
+\item 
+void \mbox{\hyperlink{_quarto_8c_a83c44fab5765f9973a8cf8947782fb2f}{carregarfq}} (struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$$\ast$Quartos, int $\ast$n\+\_\+quartos, int $\ast$n\+\_\+maxQ)
+\item 
+void \mbox{\hyperlink{_quarto_8c_a61f8ee8df1b34b2aec9c9ce825055fe9}{editar\+Quarto}} (struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$Quartos, int n\+\_\+quartos)
+\item 
+void \mbox{\hyperlink{_quarto_8c_aa4f7d66c32bffe742f971236b7753d8a}{indesponivel\+Quarto}} (struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$Quartos, int n\+\_\+quartos)
+\item 
+void \mbox{\hyperlink{_quarto_8c_aa823a46c4e50e34ee66bbb6e88e90e73}{listar\+Quarto\+Ocupados}} (struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$Quartos, int n\+\_\+quartos)
+\item 
+void \mbox{\hyperlink{_quarto_8c_a616c12b54198f5c1a4a2668e8eb9481f}{listar\+Quarto\+Menutencao}} (struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$Quartos, int n\+\_\+quartos)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_quarto_8c_aa2eadadf275a938083e6cdba3c52212c}\label{_quarto_8c_aa2eadadf275a938083e6cdba3c52212c}} 
+\index{Quarto.c@{Quarto.c}!addQuarto@{addQuarto}}
+\index{addQuarto@{addQuarto}!Quarto.c@{Quarto.c}}
+\doxysubsubsection{\texorpdfstring{addQuarto()}{addQuarto()}}
+{\footnotesize\ttfamily void add\+Quarto (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$$\ast$}]{Quartos,  }\item[{int $\ast$}]{n\+\_\+quartos,  }\item[{int $\ast$}]{n\+\_\+maxQ }\end{DoxyParamCaption})}
+
+Funcao para criar quarto 
+\begin{DoxyParams}{Parameters}
+{\em Quartos,apontador} & para a estrutura de quarto \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+{\em n\+\_\+maxQ,numero} & maximo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_quarto_8c_a83c44fab5765f9973a8cf8947782fb2f}\label{_quarto_8c_a83c44fab5765f9973a8cf8947782fb2f}} 
+\index{Quarto.c@{Quarto.c}!carregarfq@{carregarfq}}
+\index{carregarfq@{carregarfq}!Quarto.c@{Quarto.c}}
+\doxysubsubsection{\texorpdfstring{carregarfq()}{carregarfq()}}
+{\footnotesize\ttfamily void carregarfq (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$$\ast$}]{Quartos,  }\item[{int $\ast$}]{n\+\_\+quartos,  }\item[{int $\ast$}]{n\+\_\+maxQ }\end{DoxyParamCaption})}
+
+Funcao para carregar a informacao dos quartos 
+\begin{DoxyParams}{Parameters}
+{\em Quartos,apontador} & para a estrutura de quarto \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+{\em n\+\_\+maxQ,numero} & maximo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_quarto_8c_a61f8ee8df1b34b2aec9c9ce825055fe9}\label{_quarto_8c_a61f8ee8df1b34b2aec9c9ce825055fe9}} 
+\index{Quarto.c@{Quarto.c}!editarQuarto@{editarQuarto}}
+\index{editarQuarto@{editarQuarto}!Quarto.c@{Quarto.c}}
+\doxysubsubsection{\texorpdfstring{editarQuarto()}{editarQuarto()}}
+{\footnotesize\ttfamily void editar\+Quarto (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$}]{Quartos,  }\item[{int}]{n\+\_\+quartos }\end{DoxyParamCaption})}
+
+Funcao para editar os quartos 
+\begin{DoxyParams}{Parameters}
+{\em Quartos,apontador} & para a estrutura de quarto \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_quarto_8c_a2c433ab1b0755a737c4d7b97f7ca3fc8}\label{_quarto_8c_a2c433ab1b0755a737c4d7b97f7ca3fc8}} 
+\index{Quarto.c@{Quarto.c}!gravarfq@{gravarfq}}
+\index{gravarfq@{gravarfq}!Quarto.c@{Quarto.c}}
+\doxysubsubsection{\texorpdfstring{gravarfq()}{gravarfq()}}
+{\footnotesize\ttfamily void gravarfq (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$}]{Quartos,  }\item[{int}]{n\+\_\+quartos }\end{DoxyParamCaption})}
+
+Funcao para gravar a informacao dos quartos 
+\begin{DoxyParams}{Parameters}
+{\em Quartos,apontador} & para a estrutura de quarto \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_quarto_8c_aa4f7d66c32bffe742f971236b7753d8a}\label{_quarto_8c_aa4f7d66c32bffe742f971236b7753d8a}} 
+\index{Quarto.c@{Quarto.c}!indesponivelQuarto@{indesponivelQuarto}}
+\index{indesponivelQuarto@{indesponivelQuarto}!Quarto.c@{Quarto.c}}
+\doxysubsubsection{\texorpdfstring{indesponivelQuarto()}{indesponivelQuarto()}}
+{\footnotesize\ttfamily void indesponivel\+Quarto (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$}]{Quartos,  }\item[{int}]{n\+\_\+quartos }\end{DoxyParamCaption})}
+
+Funcao para poder mudar a disponibilidade dos quartos 
+\begin{DoxyParams}{Parameters}
+{\em Quartos,apontador} & para a estrutura de quarto \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_quarto_8c_a6393540fb3f548ef726823b634c5235b}\label{_quarto_8c_a6393540fb3f548ef726823b634c5235b}} 
+\index{Quarto.c@{Quarto.c}!listarQuarto@{listarQuarto}}
+\index{listarQuarto@{listarQuarto}!Quarto.c@{Quarto.c}}
+\doxysubsubsection{\texorpdfstring{listarQuarto()}{listarQuarto()}}
+{\footnotesize\ttfamily void listar\+Quarto (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$}]{Quartos,  }\item[{int}]{n\+\_\+quartos }\end{DoxyParamCaption})}
+
+Funcao para listar os quartos 
+\begin{DoxyParams}{Parameters}
+{\em Quartos,apontador} & para a estrutura de quarto \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_quarto_8c_a616c12b54198f5c1a4a2668e8eb9481f}\label{_quarto_8c_a616c12b54198f5c1a4a2668e8eb9481f}} 
+\index{Quarto.c@{Quarto.c}!listarQuartoMenutencao@{listarQuartoMenutencao}}
+\index{listarQuartoMenutencao@{listarQuartoMenutencao}!Quarto.c@{Quarto.c}}
+\doxysubsubsection{\texorpdfstring{listarQuartoMenutencao()}{listarQuartoMenutencao()}}
+{\footnotesize\ttfamily void listar\+Quarto\+Menutencao (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$}]{Quartos,  }\item[{int}]{n\+\_\+quartos }\end{DoxyParamCaption})}
+
+Listar os Quartos Manutencao 
+\begin{DoxyParams}{Parameters}
+{\em Quartos,apontador} & para a estrutura de quarto \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_quarto_8c_aa823a46c4e50e34ee66bbb6e88e90e73}\label{_quarto_8c_aa823a46c4e50e34ee66bbb6e88e90e73}} 
+\index{Quarto.c@{Quarto.c}!listarQuartoOcupados@{listarQuartoOcupados}}
+\index{listarQuartoOcupados@{listarQuartoOcupados}!Quarto.c@{Quarto.c}}
+\doxysubsubsection{\texorpdfstring{listarQuartoOcupados()}{listarQuartoOcupados()}}
+{\footnotesize\ttfamily void listar\+Quarto\+Ocupados (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$}]{Quartos,  }\item[{int}]{n\+\_\+quartos }\end{DoxyParamCaption})}
+
+Listar os Quartos Ocupados 
+\begin{DoxyParams}{Parameters}
+{\em Quartos,apontador} & para a estrutura de quarto \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_quarto_8c_a732c9620570104673206bfdebe6a5821}\label{_quarto_8c_a732c9620570104673206bfdebe6a5821}} 
+\index{Quarto.c@{Quarto.c}!menuQuartos@{menuQuartos}}
+\index{menuQuartos@{menuQuartos}!Quarto.c@{Quarto.c}}
+\doxysubsubsection{\texorpdfstring{menuQuartos()}{menuQuartos()}}
+{\footnotesize\ttfamily void menu\+Quartos (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$$\ast$}]{Quartos,  }\item[{int $\ast$}]{n\+\_\+quartos,  }\item[{int $\ast$}]{n\+\_\+maxQ }\end{DoxyParamCaption})}
+
+Menu dos quartos para criar, mudar a disponivlilidade dos quartos, guardar e editar 
+\begin{DoxyParams}{Parameters}
+{\em Quartos,apontador} & para a estrutura de quarto \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+{\em n\+\_\+maxQ,numero} & maximo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_quarto_8c_a6a5303b308fa6edc08e02ec538066f4a}\label{_quarto_8c_a6a5303b308fa6edc08e02ec538066f4a}} 
+\index{Quarto.c@{Quarto.c}!removerQuarto@{removerQuarto}}
+\index{removerQuarto@{removerQuarto}!Quarto.c@{Quarto.c}}
+\doxysubsubsection{\texorpdfstring{removerQuarto()}{removerQuarto()}}
+{\footnotesize\ttfamily void remover\+Quarto (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$$\ast$}]{Quartos,  }\item[{int $\ast$}]{n\+\_\+quartos,  }\item[{int $\ast$}]{n\+\_\+maxQ }\end{DoxyParamCaption})}
+
+Remover o quarto 
+\begin{DoxyParams}{Parameters}
+{\em Quartos,apontador} & para a estrutura de quarto \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+{\em n\+\_\+maxQ,numero} & maximo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_quarto_8c_a947e7c7f4cc84138a9870c3077e4b0a0}\label{_quarto_8c_a947e7c7f4cc84138a9870c3077e4b0a0}} 
+\index{Quarto.c@{Quarto.c}!verificarQuarto@{verificarQuarto}}
+\index{verificarQuarto@{verificarQuarto}!Quarto.c@{Quarto.c}}
+\doxysubsubsection{\texorpdfstring{verificarQuarto()}{verificarQuarto()}}
+{\footnotesize\ttfamily int verificar\+Quarto (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$}]{Quartos,  }\item[{int}]{n\+\_\+quartos,  }\item[{int}]{num\+Quarto }\end{DoxyParamCaption})}
+
+Funcao para verificar se o numero do quarto ja existe 
+\begin{DoxyParams}{Parameters}
+{\em Quartos,apontador} & para a estrutura de quarto \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+{\em num\+Quarto,varivel} & que ira verificar o numero do quarto \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}

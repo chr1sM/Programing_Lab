@@ -1,0 +1,53 @@
+\hypertarget{_faturas_8c}{}\doxysection{Faturas.\+c File Reference}
+\label{_faturas_8c}\index{Faturas.c@{Faturas.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}struct.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_faturas_8c_a854ad560698591f428249118df77625f}{menu\+Faturas}} (struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$$\ast$Clientes, int $\ast$n\+\_\+clientes, struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$$\ast$Reservas, int $\ast$n\+\_\+reservas)
+\item 
+void \mbox{\hyperlink{_faturas_8c_a9edd61cdaa4478b3b1e0fcc09d2d38d3}{fmensal}} (struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$Reservas, int n\+\_\+reservas, struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$Clientes, int n\+\_\+clientes)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_faturas_8c_a9edd61cdaa4478b3b1e0fcc09d2d38d3}\label{_faturas_8c_a9edd61cdaa4478b3b1e0fcc09d2d38d3}} 
+\index{Faturas.c@{Faturas.c}!fmensal@{fmensal}}
+\index{fmensal@{fmensal}!Faturas.c@{Faturas.c}}
+\doxysubsubsection{\texorpdfstring{fmensal()}{fmensal()}}
+{\footnotesize\ttfamily void fmensal (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$}]{Reservas,  }\item[{int}]{n\+\_\+reservas,  }\item[{struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$}]{Clientes,  }\item[{int}]{n\+\_\+clientes }\end{DoxyParamCaption})}
+
+Imprimir a fatura mensal 
+\begin{DoxyParams}{Parameters}
+{\em Reservas,apontador} & para a estrutura de reserva \\
+\hline
+{\em n\+\_\+reservas,numero} & de reservas \\
+\hline
+{\em Clientes,apontador} & para a estrutura de cliente \\
+\hline
+{\em n\+\_\+clientes,numero} & de clientes \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_faturas_8c_a854ad560698591f428249118df77625f}\label{_faturas_8c_a854ad560698591f428249118df77625f}} 
+\index{Faturas.c@{Faturas.c}!menuFaturas@{menuFaturas}}
+\index{menuFaturas@{menuFaturas}!Faturas.c@{Faturas.c}}
+\doxysubsubsection{\texorpdfstring{menuFaturas()}{menuFaturas()}}
+{\footnotesize\ttfamily void menu\+Faturas (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_cliente}{Cliente}} $\ast$$\ast$}]{Clientes,  }\item[{int $\ast$}]{n\+\_\+clientes,  }\item[{struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$$\ast$}]{Reservas,  }\item[{int $\ast$}]{n\+\_\+reservas }\end{DoxyParamCaption})}
+
+Menu das faturas para escolher se queremos a fatura mensal ou trimestral 
+\begin{DoxyParams}{Parameters}
+{\em Clientes,apontador} & para a estrutura de cliente \\
+\hline
+{\em n\+\_\+clientes,numero} & de clientes \\
+\hline
+{\em Reservas,apontador} & para a estrutura de reserva \\
+\hline
+{\em n\+\_\+reservas,numero} & de reservas \\
+\hline
+{\em Quartos,apontador} & para a estrutura de quarto \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,136 @@
+\hypertarget{_reserva_8c}{}\doxysection{Reserva.\+c File Reference}
+\label{_reserva_8c}\index{Reserva.c@{Reserva.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}struct.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_reserva_8c_a34ced558bd36ae641a6aac9afe5c64e3}{add\+Reserva}} (struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$$\ast$Reservas, int $\ast$n\+\_\+reservas, struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$$\ast$Quartos, int $\ast$n\+\_\+quartos, int $\ast$n\+\_\+maxR)
+\item 
+int \mbox{\hyperlink{_reserva_8c_adfff3f6b98156d07d42142c8bde77362}{verificar\+Reserva}} (struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$Reservas, int n\+\_\+reservas, int num\+Reserva)
+\item 
+int \mbox{\hyperlink{_reserva_8c_a903afeb499b327946ec96ea73f7dc2c5}{verificartipo}} (struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$Quartos, int n\+\_\+quartos, int num\+Quarto)
+\item 
+void \mbox{\hyperlink{_reserva_8c_a382ff4b5d5906e9fd6e2f6786fe56720}{gravarfr}} (struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$Reservas, int n\+\_\+reservas)
+\item 
+void \mbox{\hyperlink{_reserva_8c_a8cc2e5745fc7616c7678094c40241f33}{carregarfr}} (struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$$\ast$Reservas, int $\ast$n\+\_\+reservas, int $\ast$n\+\_\+maxR)
+\item 
+void \mbox{\hyperlink{_reserva_8c_a8a6e77f146a788ba70c3dcade80f11b4}{listar\+Reservas}} (struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$Reservas, int n\+\_\+reservas)
+\item 
+void \mbox{\hyperlink{_reserva_8c_ad3e164c51bab7418e04131d6b83340bc}{listar\+Reservas\+Maior200}} (struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$Reservas, int n\+\_\+reservas)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_reserva_8c_a34ced558bd36ae641a6aac9afe5c64e3}\label{_reserva_8c_a34ced558bd36ae641a6aac9afe5c64e3}} 
+\index{Reserva.c@{Reserva.c}!addReserva@{addReserva}}
+\index{addReserva@{addReserva}!Reserva.c@{Reserva.c}}
+\doxysubsubsection{\texorpdfstring{addReserva()}{addReserva()}}
+{\footnotesize\ttfamily void add\+Reserva (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$$\ast$}]{Reservas,  }\item[{int $\ast$}]{n\+\_\+reservas,  }\item[{struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$$\ast$}]{Quartos,  }\item[{int $\ast$}]{n\+\_\+quartos,  }\item[{int $\ast$}]{n\+\_\+maxR }\end{DoxyParamCaption})}
+
+Criar \mbox{\hyperlink{struct_reserva}{Reserva}} 
+\begin{DoxyParams}{Parameters}
+{\em Reservas,apontador} & para a estrutura da reserva \\
+\hline
+{\em n\+\_\+reservas,numero} & de reservas \\
+\hline
+{\em Quartos,apontador} & para a estrutura da quarto \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+{\em n\+\_\+maxR,numero} & maximo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_reserva_8c_a8cc2e5745fc7616c7678094c40241f33}\label{_reserva_8c_a8cc2e5745fc7616c7678094c40241f33}} 
+\index{Reserva.c@{Reserva.c}!carregarfr@{carregarfr}}
+\index{carregarfr@{carregarfr}!Reserva.c@{Reserva.c}}
+\doxysubsubsection{\texorpdfstring{carregarfr()}{carregarfr()}}
+{\footnotesize\ttfamily void carregarfr (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$$\ast$}]{Reservas,  }\item[{int $\ast$}]{n\+\_\+reservas,  }\item[{int $\ast$}]{n\+\_\+maxR }\end{DoxyParamCaption})}
+
+Funcao para carregar os dados da reserva 
+\begin{DoxyParams}{Parameters}
+{\em Reservas,apontador} & para a estrutura de reservas \\
+\hline
+{\em n\+\_\+reservas,numero} & de reservas \\
+\hline
+{\em n\+\_\+maxR,numero} & maximo \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_reserva_8c_a382ff4b5d5906e9fd6e2f6786fe56720}\label{_reserva_8c_a382ff4b5d5906e9fd6e2f6786fe56720}} 
+\index{Reserva.c@{Reserva.c}!gravarfr@{gravarfr}}
+\index{gravarfr@{gravarfr}!Reserva.c@{Reserva.c}}
+\doxysubsubsection{\texorpdfstring{gravarfr()}{gravarfr()}}
+{\footnotesize\ttfamily void gravarfr (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$}]{Reservas,  }\item[{int}]{n\+\_\+reservas }\end{DoxyParamCaption})}
+
+Funcao para gravar os dados da reserva 
+\begin{DoxyParams}{Parameters}
+{\em Reservas,apontador} & para a estrutura de reservas \\
+\hline
+{\em n\+\_\+reservas,numero} & de reservas \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_reserva_8c_a8a6e77f146a788ba70c3dcade80f11b4}\label{_reserva_8c_a8a6e77f146a788ba70c3dcade80f11b4}} 
+\index{Reserva.c@{Reserva.c}!listarReservas@{listarReservas}}
+\index{listarReservas@{listarReservas}!Reserva.c@{Reserva.c}}
+\doxysubsubsection{\texorpdfstring{listarReservas()}{listarReservas()}}
+{\footnotesize\ttfamily void listar\+Reservas (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$}]{Reservas,  }\item[{int}]{n\+\_\+reservas }\end{DoxyParamCaption})}
+
+Listar as reservas de todos os clientes 
+\begin{DoxyParams}{Parameters}
+{\em Reservas,apontador} & para a estrutura de reservas \\
+\hline
+{\em n\+\_\+reservas,numero} & de reservas \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_reserva_8c_ad3e164c51bab7418e04131d6b83340bc}\label{_reserva_8c_ad3e164c51bab7418e04131d6b83340bc}} 
+\index{Reserva.c@{Reserva.c}!listarReservasMaior200@{listarReservasMaior200}}
+\index{listarReservasMaior200@{listarReservasMaior200}!Reserva.c@{Reserva.c}}
+\doxysubsubsection{\texorpdfstring{listarReservasMaior200()}{listarReservasMaior200()}}
+{\footnotesize\ttfamily void listar\+Reservas\+Maior200 (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$}]{Reservas,  }\item[{int}]{n\+\_\+reservas }\end{DoxyParamCaption})}
+
+Listar as reservas com o valor total superior a 200 
+\begin{DoxyParams}{Parameters}
+{\em Reservas,apontador} & para a estrutura de reservas \\
+\hline
+{\em n\+\_\+reservas,numero} & de reservas \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_reserva_8c_adfff3f6b98156d07d42142c8bde77362}\label{_reserva_8c_adfff3f6b98156d07d42142c8bde77362}} 
+\index{Reserva.c@{Reserva.c}!verificarReserva@{verificarReserva}}
+\index{verificarReserva@{verificarReserva}!Reserva.c@{Reserva.c}}
+\doxysubsubsection{\texorpdfstring{verificarReserva()}{verificarReserva()}}
+{\footnotesize\ttfamily int verificar\+Reserva (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_reserva}{Reserva}} $\ast$}]{Reservas,  }\item[{int}]{n\+\_\+reservas,  }\item[{int}]{num\+Reserva }\end{DoxyParamCaption})}
+
+Funcao para verificar se o numero da reserva ja existe 
+\begin{DoxyParams}{Parameters}
+{\em Reservas,apontador} & para a estrutura da reserva \\
+\hline
+{\em n\+\_\+reservas,numero} & de reservas \\
+\hline
+{\em num\+Reserva,variavel} & que ira ser verificada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{_reserva_8c_a903afeb499b327946ec96ea73f7dc2c5}\label{_reserva_8c_a903afeb499b327946ec96ea73f7dc2c5}} 
+\index{Reserva.c@{Reserva.c}!verificartipo@{verificartipo}}
+\index{verificartipo@{verificartipo}!Reserva.c@{Reserva.c}}
+\doxysubsubsection{\texorpdfstring{verificartipo()}{verificartipo()}}
+{\footnotesize\ttfamily int verificartipo (\begin{DoxyParamCaption}\item[{struct \mbox{\hyperlink{struct_quarto}{Quarto}} $\ast$}]{Quartos,  }\item[{int}]{n\+\_\+quartos,  }\item[{int}]{num\+Quarto }\end{DoxyParamCaption})}
+
+Funcao para verificar o tipo de quarto para atribuir um valor 
+\begin{DoxyParams}{Parameters}
+{\em Quartos,apontador} & para a estrutura de quartos \\
+\hline
+{\em n\+\_\+quartos,numero} & de quartos \\
+\hline
+{\em num\+Quarto,variavel} & que vai verificar o tipo de quarto \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
